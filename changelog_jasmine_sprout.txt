@@ -27,3 +27,17 @@ JAN 01 , 2021
 + sdm660-common: props: enable vsync and disable backpressure
 + sdm660-common: Update WFD and Time services from LA.UM.9.6.2.r1-02500-89xx.0 (WFD still in WIP)
 + sdm660-common: Update perfd from taimen RP1A.201005.004
+
+=========================
+
+MAY 09 , 2021
+
+=========================
+
++ May Security Patch
++ Initial 4.19 Build
++ CTS is passed by default
++ Selinux is Enforcing
++ GPS and WFD Fixed 
+
+
