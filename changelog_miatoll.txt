@@ -1,0 +1,17 @@
+
+
+
+Highlights & Device Specific Changes:
+===================================
+Mon May 10 11:40:12 UTC 2021
+
+Build type: Monthly
+Device: Redmi Note 9S/Pro/Pro Max/Poco M2 Pro (miatoll)
+Device maintainer: Jijin Raj (GHOST)
+
+Short changelog:
+
+* Added OTA Support
+* Switched To Miui Camera
+* Updated Redfin Build Fp
+===================================
