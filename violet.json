@@ -1,0 +1,23 @@
+{
+  "response": [
+    {
+        "maintainer": "Suneesh S (kalmin06)",
+        "oem": "Redmi",
+        "device": "Redmi Note 7 Pro",
+        "filename": "SpiceOS-3.1-STABLE-20210515-violet-OFFICIAL.zip",
+        "download": "https://sourceforge.net/projects/spiceos/files/11/violet/SpiceOS-3.1-STABLE-20210515-violet-OFFICIAL.zip/download",
+        "timestamp": 1621066441,
+        "md5": "236e02508ffb996daa4ebd8cb960df16",
+        "size": 1224831696,
+        "version": "3.1",
+        "buildtype": "Stable",
+        "forum": "https://forum.xda-developers.com/t/rom-official-11-0-spiceos-3-1-violet.4277485/",
+        "firmware": "https://www.xiaomifirmwareupdater.com/firmware/violet/",
+        "modem": "https://link",
+        "bootloader": "https://link",
+        "recovery": "https://orangefox.download/device/violet",
+        "paypal": "https://link",
+        "telegram": "https://telegram.dog/spiceosviolet"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Highlights & Device Specific Changes:
+===================================
+15th May, 2021 
+Build type: Monthly
+Device: Redmi Note 7 Pro (violet)
+Device maintainer: kalmin06
+===================================
+* Initial Official build
