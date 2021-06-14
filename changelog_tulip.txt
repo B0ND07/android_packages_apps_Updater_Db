@@ -1,6 +1,17 @@
 =========================
 
-MAY 061 , 2021
+JUN 12 , 2021
+=========================
++Upstreamed kernel to 4.4.271- Halcyon-eas 
++Fixed IR
++Fixed issues in VoLTE and VoWIFI
++Fixed CTS with or without root
++Fixed minor bugs
+
+
+=========================
+
+MAY 06 , 2021
 
 =========================
 
