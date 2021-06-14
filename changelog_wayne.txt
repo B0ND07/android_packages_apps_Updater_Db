@@ -49,3 +49,383 @@ MAY 15 , 2021
 + power: qcom: Force 900mA charging for USB2.0
 + FilesGo is replaced with Los file manager
 + Fixed OTG
+
+=========================
+
+JUN 13 , 2021
+
+=========================
+
++ Kernel Upstreamed to V4.19.194
++ sdm660-common:Update IRQ,Perf,Thermal and Charger blobs from LA.UM.8.2.1.r1-05600-sdm660
++ sdm660-common:Kang WFD Blobs from LA.UM.9.2.r1-01800-SDMxx0.0
++ sdm660-common:Enable zram-writeback job
++ sdm660-common: sepolicy: allow mediaprovider to talk to gpuservice
++ sdm660-common: Build custom audio amplifier
++ sdm660-common: Add custom audio amplifier for TFA amp feedback
++ sdm660-common: overlay-lineage: Limit screen recorder's framerate to 60fps
++ sdm660-common:Address some more sepolicies
++ sdm660-common:Remove Secure Element
++ sdm660-common:Downgrade to DRM 1.0
++ Revert "sdm660-common:Update FCM level to 4"
++ Fixed Chrome crahes and DRM issues
++ sdm660-common:Remove Radio property_contexts
++ sdm660-common: Add netutils-wrapper to device compatibility matrix.
++ sdm660:Adress netutils_wrapper denial
++ sdm660-common:Remove un-necesary display blobs
++ sdm660-common: Disable hwc vds in surface flinger
++ sdm660-common: libqti-perfd-client: return a dummy value
++ sdm660-common: libqti-perfd-client: Remove namespace declaration
++ sdm660-common: power-libperfmgr: let power hal start early
++ sdm660-common: Build graphics.allocator@3.0 and @4.0
++ sdm660-common: sepolicy: Fix exported_camera_prop denials
++ sdm660-common: sepolicy: Fix userspace_reboot prop denials
++ sdm660-common: Disable sdm rotator downscaler
++ sdm660-common:Build OMX hal
++ Merge tag 'LA.UM.9.2.1.r1-07200-sdm660.0' into data-ipa-cff-mgr
++ hal: Use log/log.h instead of cutils/log.h
++ data-ipa-cfg-mgr: Use generated kernel headers
++ data-ipa-cfg-mgr: Don't build ipacm tests on debug builds
++ data-ipa-cfg-mgr: Remove verbose cflag
++ ipacm: Address ipacm start failure
++ sdm660-common: art quicken = speed
++ sdm660-common:Increase Boot and Recovery partition size
++ sdm660-common:Use Clang 12.0.6
++ sdm660-common: rootdir: fix the zram init process
++ sdm660-common: Stop creating IOP deamon dirs
++ sdm660-common: overlay: Enable VoLTE and VoWIFI for all
++ sdm660-common: Enable debug.performance.tuning
++ sdm660-common: Speed preopt SysUI/Launcher/Settings
++ sdm660-common: Adjust dex2oat thread count after setup wizard
++ sdm660-common: Port dynamic thermal profile implementation from SDM845
++ sdm660-common: DeviceSettings: Make thermal profiles naming completely generic
++ sdm660-common: DeviceSettings: Set dynamic thermal interval to 5 sec
++ sdm660-common: rootdir: Fix permissions for dynamic thermal profile
++ sdm660-common: DeviceSettings: Switch to TaskStackListener
++ sdm660-common: thermal: Regen thermal configs
++ sdm660-common:Add some thermal configs
++ sdm660-common: Drop libgpustats
++ sdm660-common: Update soundtrigger blobs from lemon
++ sdm660-common: Enable soundtrigger hidl hal 2.3
++ sdm660-common: audio: Add built-in/Back mic and remove TelePhony Rx from primary input
++ sdm660-common: audio: Add incall music profile
++ sdm660-common: audio: Enable feature flag for incall music profile
++ sdm660-common:Update ESE blobs from LA.UM.8.2.1.r1-05600-sdm660
++ + Merged CAF LA.UM.9.2.1.r1-07200-sdm660.0
+
++ drivers: misc: implement usb fast charge mode
+
++ defconfig: wayne: Enable USB fast charge
+
++ power: qcom: Force 900mA charging for USB2.0
+
++ codecs : max98937 : include missing headers
+
++ arm64/dts: longcheer: Disable DMA Mapping for max98937 explicitly
+
++ techpack : include longcheer specific configs
+
++ techpack: audio: max98937: adapt for kernel 4.19
+
++ codecs: max98937: fix debug_fs compilation
+
++ defconfig: wayne: Enable some sound drivers
+
++ techpack : ellipticlabs : adapt driver to kernel 4.19
+
++ partially revert UPSTREAM: PM / wakeup: Drop wakeup_source_init(), wakeup_source_prepare()
+
++ defconfig: wayne: Enable ELLIPTICLABS ultrasound dsp driver
+
++ defconfig: wayne: Enable TFA9879 AMP
+
++ sdm660-common:Enable ZRAM writeback
+
++ techpack: qdsp6v2: Allow 320K AAC encoding
+
++ sound: soc: pcm: support host-less 24bit formats
+
++ sdm660:Use 24-bit audio
+
++ config: improved zRAM & enable zCACHE swap
+
++ ARM: dts: xiaomi: Optimise notification LED fluency
+
++ do accept() in LIFO order for cache efficiency
+
++ devfreq_boost: Run boost kthreads on big CPU cluster
+
++ drm/atomic: Boost DDR when committing a new frame
+
++ fs: exec: Introduce is_zygote_pid()
+
++ kernel: Boost whenever a zygote-forked process becomes a top app
+
++ kernel: Boost to the max for a short amount of time when zygote forks
+
++ cpufreq: qcom-hw: Allow overriding CPU frequency tables in DT
+
++ cpufreq: Kill userspace CPU boosting entirely
+
++ memlat: don't read perf event if other CPU is under scm call
+
++ ipv4/tcp: allow the memory tuning for tcp to go a little bigger than default
+
++ mm: vmstat: Use more power efficient workingqueues
+
++ platform: ipa: Use power efficient workingqueues
+
++ power: supply: Use power efficient workingqueues
+
++ mm: Perform PID map reads on the little CPU cluster
+
++ sched: features: Disable EAS_PREFER_IDLE
+
++ qpnp-smb2: Silence dmesg spam while charging
+
++ qpnp-smb2: fake as display off to fasten charging rates
+
++ dts: drivers: increase charging speed
+
++ treewide-minimal: Fix warning variable
+
++ Revert "cpufreq: schedutil: Expose default configuration options and apply init protection"
+
++ qcacld-3.0: remove logspam
+
++ drivers: staging: qcacld-3.0: Remove android.mk
+
++ iio: adc: Add backlight_therm ADC channel
+
++ ARM64: dts: sdm660: Switch back to CAF energy cost model
+
++ drivers: power: properly import missing xiaomi changes
+
++ exfat: fix overflow issue in exfat_cluster_to_sector()
+
++ exfat: fix wrong hint_stat initialization in exfat_find_dir_entry()
+
++ exfat: fix wrong size update of stream entry by typo
+
++ exfat: fix name_hash computation on big endian systems
+
++ exfat: remove EXFAT_SB_DIRTY flag
+
++ exfat: write multiple sectors at once
+
++ exfat: add error check when updating dir-entries
+
++ exfat: optimize exfat_zeroed_cluster()
+
++ exfat: retain 'VolumeFlags' properly
+
++ exfat: fix pointer error checking
+
++ exfat: fix use of uninitialized spinlock on error path
+
++ exfat: fix misspellings using codespell tool
+
++ exfat: use i_blocksize() to get blocksize
+
++ exfat: eliminate dead code in exfat_find()
+
++ exfat: remove useless directory scan in exfat_add_entry()
+
++ exfat: replace memcpy with structure assignment
+
++ exfat: remove 'rwoffset' in exfat_inode_info
+
++ exfat: remove useless check in exfat_move_file()
+
++ dm-crypt: increase threads
+
++ Makefile: Use pipes rather than temporary files for intermediate steps
+
++ drivers:i2c: Reduce touch latency by 0.5-1ms by just making it use block transfer mode for small transactions
+
++ msm: mdss: Boost CPU when a new frame is ready to be committed
+
++ defconfig: wayne: Disable PSI
+
++ qpnp-fg-gen3: 1000mA minimum charging 70% to 90%
+
++ ARM64: dts: xiaomi: set max brightness to 255
+
++ defconfig: wayne: Enable TTL Target
+
++ block: Do not collect I/O statistics
+
++ cnss: Do not mandate TESTMODE for netlink driver
+
++ block: Allow noop to be disabled
+
++ mmc: disable SPI CRC
+
++ selinux: Avoid dynamic memory allocation for INITCONTEXTLEN buffers
+
++ lib: Don't make DEBUG_KMEMLEAK depend on DEBUG_KERNEL
+
++ lib: Disable debug_locks
+
++ bpf: avoid dynamic memory allocation for small value buffers
+
++ printk: use buffer from the stack space
+
++ binder: set binder_debug_mask=0 to suppress logging
+
++ fs: default to noatime
+
++ power: don't ever reboot to verity red
+
++ arm64: debug: disable self-hosted debug by default
+
++ arm64: Kconfig: Don't select FRAME_POINTERS
+
++ lib: Kconfig: Don't enable DEBUG_BUGVERBOSE by default
+
++ diag: disable DIAG_DEBUG
+
++ lib: Remove DEBUG_KERNEL dependency from SCHED_DEBUG and SCHEDSTATS
+
++ msm: kgsl: Avoid dynamically allocating small command buffers
+
++ irq: spurious: Disable IRQ debugging by default
+
++ defconfig: wayne: Enable OTG
+
++ Update dtc sripts
+
++ Makefile: Set KBUILD_OUTPUT to out by default
+
++ Makefile: Force ARCH to be arm64
+
++ kbuild: Silence noisy GCC warnings up to GCC 10
+
++ msm: kgsl: Increase worker thread priority
+
++ msm: kgsl: Remove sync fence names
+
++ kernel: Don't allow IRQ affinity masks to have more than one CPU
+
++ kernel: Only set one CPU in the default IRQ affinity mask
+
++ msm: kgsl: Don't try to wait for fences that have been signaled
+
++ mm: kmemleak: Don't die when memory allocation fails
+
++ scatterlist: Don't allocate sg lists using __get_free_page
+
++ f2fs: Force strict fsync mode
+
++ Revert "usb: gadget: f_mtp: Increase default TX buffer size"
+
++ Revert "usb: gadget: mtp: Increase RX transfer length to 1M"
+
++ Revert "mutex: Add a delay into the SPIN_ON_OWNER wait loop."
+
++ arm64: Allow IPI_WAKEUP to be used outside of the ACPI parking protocol
+
++ locking/mutex: Don't hog RCU read lock while optimistically spinning
+
++ locking/rwsem: Don't hog RCU read lock while optimistically spinning
+
++ irqchip/gic-v3: Remove pr_devel message containing smp_processor_id()
+
++ kbuild: Disable stack conservation for GCC
+
++ arm64: Disable -fwhole-program for vDSO
+
++ selinux: Remove audit dependency
+
++ workqueue: Schedule workers on CPU0 or 0-3 by default
+
++ kernfs: Avoid dynamic memory allocation for small write buffers
+
++ ALSA: control_compat: Don't dynamically allocate single-use structs
+
++ binder: Stub out debug prints by default
+
++ msm: msm_bus: Kill transaction logging functionality
+
++ trace: add CONFIG_DISABLE_TRACE_PRINTK option
+
++ mm/slub.c: branch optimization in free slowpath
+
++ lib/lz4: update LZ4 decompressor module
+
++ lz4: do not export static symbol
+
++ lib/lz4/lz4_decompress.c: document deliberate use of `&'
+
++ lz4: fix kernel decompression speed
+
++ lib/lz4: explicitly support in-place decompression
+
++ cpufreq: stats: replace the global lock with atomic
+
++ ANDROID: sched: EAS: take cstate into account when selecting idle core
+
++ ANDROID: sched: EAS: take cstate into account when selecting idle core
+
++ msm: kgsl: Use lock-less list for page pools
+
++ ashmem: Rewrite to improve clarity and performance
+
++ ashmem: Adapt building on msm-4.19
+
++ kallsyms: increase KSYM_NAME_LEN both in kernel and kallsyms.c
+
++ defconfig: wayne: Add more kernel configs
+
++ simple_lmk: Run reclaim kthread on big CPU cluster
+
++ simple_lmk: Don't block in simple_lmk_mm_freed() on mm_free_lock
+
++ simple_lmk: Use MIN_FREE_PAGES wherever pages_needed is used
+
++ simple_lmk: Skip victim reduction when all victims need to be killed
+
++ simple_lmk: Pass a custom swap function to sort()
+
++ simple_lmk: Cacheline-align the victims array and mm_free_lock on SMP
+
++ simple_lmk: Optimize victim finder to eliminate hard-coded adj ranges
+
++ sched: Add API to migrate the current process to a given cpumask
+
++ sched/fair: Don't remove important task migration logic from PELT
+
++ kernel: Extend the perf-critical API to little CPUs
+
++ kernel: Warn when an IRQ's affinity notifier gets overwritten
+
++ drm: Affine IRQ to the perf CPU cluster
+
++ defconfig:wayne:Add CONFIG_LOCALVERSION_AUTO
+
++ defconfig: Disable Privileged Access Never (PAN) emulation
++ techpack: audio: Import Xiaomi changes
+
++ ARM: dts: sdm660: tas2557: enable 24bit data
+
++ sdm660-common:Nuke CONFIG_QTI_QMI_COOLING_DEVICE
+
++ sched/fair: Don't remove important task migration logic from PELT
+
++ qos: Don't allow userspace to impose restrictions on CPU idle levels
+
++ qos: Don't disable interrupts while holding pm_qos_lock
+
++ cpuidle: Optimize pm_qos notifier callback and IPI semantics
+
++ cpuidle: Mark CPUs idle as late as possible to avoid unneeded IPIs
+
++ ARM64: dts: longcheer: Bump touchscreen I2C bus clock
+
++ ARM64: wayne: Enable CONFIG_CC_WERROR
+
++ vidc_3x: Use static table governor for bus voting
+
++ vidc_3x: Change to avoid unloading firmware
+
++ Revert "ARM64: dts: qcom: Move LPI nodes to q6core"
