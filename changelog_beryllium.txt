@@ -1,0 +1,15 @@
+Highlights & Device Specific Changes:
+===================================
+June UTC 2021
+
+Build type: Monthly
+Device: POCO F1 (beryllium)
+Device maintainer: Mohammed Althaf T (althafvly)
+
+=========================
+
+June 14, 2021
+
+=========================
+
++ SpiceOS V3.2

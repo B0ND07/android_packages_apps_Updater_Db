@@ -1,0 +1,24 @@
+{
+	"response": [
+		{
+			"maintainer": "Mohammed Althaf T (althafvly)",
+			"oem": "Xiaomi",
+			"device": "POCO F1",
+			"filename": "SpiceOS-3.2-STABLE-20210614-beryllium-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/spiceos/files/11/beryllium/SpiceOS-3.2-STABLE-20210614-beryllium-OFFICIAL.zip/download",
+			"timestamp": 1623649400,
+			"md5": "7ccd5e51e464008fcd96f45e07e47294",
+			"size": 1521786756,
+			"version": "3.2",
+			"buildtype": "Stable",
+			"forum": "https://forum.xda-developers.com/t/4134471/",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "https://paypal.me/althafvly",
+			"telegram": "https://t.me/spiceospocof1"
+		}
+	]
+}
