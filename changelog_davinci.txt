@@ -1,0 +1,9 @@
+Highlights & Device Specific Changes:
+Build type: Stable
+Device: Redmi K20 (davinci)
+Device maintainer: Karou
+Required firmware: Android 11 firmware
+
+===== June 22, 2021 =====
+- initial official build
+- switched to common trees

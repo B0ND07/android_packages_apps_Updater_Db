@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+        "maintainer": "Karou",
+        "oem": "Xiaomi",
+        "device": "Redmi K20",
+        "filename": "SpiceOS-3.2-STABLE-20210620-davinci-OFFICIAL.zip",
+        "download": "https://sourceforge.net/projects/spiceos/files/11/davinci/SpiceOS-3.2-STABLE-20210620-davinci-OFFICIAL.zip/download",
+        "timestamp": 1624365887,
+        "md5": "2109f5aae54acf4e60d383d30f0c9c42",
+        "size": 1128856682,
+        "version": "3.2",
+        "buildtype": "Stable",
+        "gapps": "https://nikgapps.com/",
+        "firmware": "https://xiaomifirmwareupdater.com/firmware/davinci/stable/V12.1.2.0.RFJMIXM/",
+        "recovery": "",
+        "telegram": "https://t.me/CultK20"
+    }
+  ]
+}
