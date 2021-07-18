@@ -448,3 +448,27 @@ JUN 13 , 2021
 + vidc_3x: Change to avoid unloading firmware
 
 + Revert "ARM64: dts: qcom: Move LPI nodes to q6core"
+
+=========================
+
+JUL 18 , 2021
+
+=========================
+
++ Kernel Upstreamed to V4.19.197
++ Based On New Rebased WCSF Kernel
++ Update to Clang 12.0.7
++ sdm660-common:Update Blobs from LA.UM.9.1-r1-06700-Smxxx0.0
++ sdm660-common:Update Wi-Fi blobs LA.UM.9.12.r1-10800-SMxx50.0
++ sdm660-common:Update ESE blobs from LA.UM.8.2.1.r1-05600-sdm660
++ sdm660-common: audio: Add incall music profile [2/2]
++ sdm660-common: Drop libgpustats
++ sdm660-common:Add Missing sepolicies
++ sdm660-common: Update IDisplayConfig to 2.0 version
++ sdm660-common: Address sepolicy denials
++ sdm660-common: sepolicy: thermal_engine_prop -> vendor_thermal_prop
++ sdm660-common: power-libperfmgr: Update powerhint
++ sdm660-common:Adapt cpu architecture as per our chip
++ jasmine_sprout:Add SND_DEVICE_IN_CAMCORDER_TMIC and SND_DEVICE_IN_CAMCORDER_DMIC configs from stock
++ jasmine_sprout : add hph-highquality-mode
++ techpack: audio: autoconf: Enable leagay avtimer for sdm660
