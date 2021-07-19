@@ -472,3 +472,11 @@ JUL 18 , 2021
 + jasmine_sprout:Add SND_DEVICE_IN_CAMCORDER_TMIC and SND_DEVICE_IN_CAMCORDER_DMIC configs from stock
 + jasmine_sprout : add hph-highquality-mode
 + techpack: audio: autoconf: Enable leagay avtimer for sdm660
+
+=========================
+
+JUL 19 , 2021
+
+=========================
+
++ Fixed Font issues
