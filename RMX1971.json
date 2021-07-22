@@ -1,0 +1,24 @@
+{
+	"response": [
+		{
+			"maintainer": "B0ND07",
+			"oem": "Realme",
+			"device": "Realme 5 Pro",
+			"filename": "SpiceOS-3.3-STABLE-20210720-RMX1971-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/spiceos/files/11/RMX1971/SpiceOS-3.3-STABLE-20210720-RMX1971-OFFICIAL.zip/download",
+			"timestamp": 1626709872,
+			"md5": "004a2c4d3ebe85c66073a8dde7842997",
+			"size": 1153185082,
+			"version": "3.3",
+			"buildtype": "Stable",
+			"forum": "https://forum.xda-developers.com/t/rom-11-official-spiceos-v3-23-20-07-2021.4302891/",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "https://t.me/JBONDO7"
+		}
+	]
+}
