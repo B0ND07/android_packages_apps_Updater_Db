@@ -1,0 +1,10 @@
+﻿=========================
+
+JULY 21 , 2021 
+
+=========================
+
+ + Initial Build
+ + July Security Patch
+ + MotoDolby Added
+ + Kernel Upstream 4.9.275
